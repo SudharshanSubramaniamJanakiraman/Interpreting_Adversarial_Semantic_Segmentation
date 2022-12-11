@@ -1,4 +1,6 @@
 # Evaluating & Interpreting Adversarial Robustness of Semantic Segmentation for Autonomous Driving
+
+Goal : Understand the effect of Adversarial attacks on State of the Art Semantic Segmentation Model
 ```
 .
 ├── README.md
