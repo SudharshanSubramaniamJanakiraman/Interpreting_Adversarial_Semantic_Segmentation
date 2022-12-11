@@ -1,0 +1,15 @@
+dag:
+  model: pspnet
+  weights: "/home/sjsudharshandl641/robust_sem_seg/ckpt/BDD100k_SemSeg_PSPNET_BackBone_resnet50_LR_0.0001/pytorch_model.pth.tar"
+  dataset: benign
+  mode: val
+  adv_location: 
+  batch_size: 1
+  shuffle: False
+  mean: [0.4245, 0.4145, 0.3702]
+  std: [0.2844, 0.2669, 0.2500]
+  batch_idx: 1  
+  num_iterations: 20
+  gamma: 0.5
+  num: 15
+  adv_base_location: "bdd100kadv"
