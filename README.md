@@ -19,3 +19,27 @@ Goal : Understand the effect of Adversarial attacks on State of the Art Semantic
 └── utils.py
 ```
 
+INSTALL THE REQUIREMENTS
+```
+pip install -r requirements.txt
+```
+
+TO TRAIN THE SEMANTIC SEGMENTATAION MODEL
+```
+python run.py
+```
+TO INTEPRET SEMNATIC SEGMENTATION OUTPUT
+```
+git clone https://github.com/jacobgil/pytorch-grad-cam.git 
+cd pytorch-grad-cam
+mv pytorch_grad_cam ~/Interpreting_Adversarial_Semantic_Segmentation/.
+```
+then
+```
+python seg_grad_sam.py
+```
+For Generating Adversarial Attacks
+```
+python adv_dag.py
+```
+
